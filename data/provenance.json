@@ -1,0 +1,68 @@
+{
+  "dude_egfr": {
+    "retrieved": "2026-11-24",
+    "source": "https://dude.docking.org/targets/egfr",
+    "target": "EGFR (DUD-E target 'egfr', UniProt P00533)",
+    "n_actives": 542,
+    "n_decoys_total": 35050,
+    "n_decoys_cached": 3000,
+    "decoy_subsample_seed": 42,
+    "attribution": "DUD-E is provided free of charge by the Irwin and Shoichet Laboratories, UCSF.",
+    "property_summary_actives": {
+      "mw": {
+        "mean": 441.11,
+        "median": 450.55
+      },
+      "logp": {
+        "mean": 4.41,
+        "median": 4.34
+      },
+      "hbd": {
+        "mean": 1.92,
+        "median": 2.0
+      },
+      "hba": {
+        "mean": 6.24,
+        "median": 6.0
+      },
+      "rotb": {
+        "mean": 6.32,
+        "median": 6.0
+      }
+    },
+    "property_summary_decoys": {
+      "mw": {
+        "mean": 434.14,
+        "median": 448.5
+      },
+      "logp": {
+        "mean": 3.21,
+        "median": 3.37
+      },
+      "hbd": {
+        "mean": 1.91,
+        "median": 2.0
+      },
+      "hba": {
+        "mean": 4.77,
+        "median": 5.0
+      },
+      "rotb": {
+        "mean": 5.93,
+        "median": 6.0
+      }
+    },
+    "citation": "Mysinger, M. M.; Carchia, M.; Irwin, J. J.; Shoichet, B. K. Directory of Useful Decoys, Enhanced (DUD-E). J. Med. Chem. 2012, 55, 6582-6594."
+  },
+  "egfr_chembl37_ic50": {
+    "source": "ChEMBL release 37, target CHEMBL203 (human EGFR), binding IC50",
+    "curation": "author's chembl-easy pipeline",
+    "n_compounds": 6871,
+    "attribution": "ChEMBL data provided by EMBL-EBI under CC BY-SA 3.0"
+  },
+  "esol_delaney": {
+    "source": "DeepChem/MoleculeNet distribution of the Delaney ESOL set",
+    "n_compounds": 1128,
+    "citation": "Delaney, J. S. J. Chem. Inf. Comput. Sci. 2004, 44, 1000-1005."
+  }
+}

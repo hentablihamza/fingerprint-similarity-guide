@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Fingerprint & Similarity Guide"
+message: "If you use these materials, please cite them using the metadata below."
+type: dataset
+authors:
+  - family-names: Hentabli
+    given-names: Hamza
+    orcid: "https://orcid.org/0000-0002-9530-2815"
+repository-code: "https://github.com/hentablihamza/fingerprint-similarity-guide"
+url: "https://github.com/hentablihamza/fingerprint-similarity-guide"
+abstract: >
+  A hands-on, 12-notebook course that benchmarks molecular fingerprints (Morgan/ECFP, FCFP,
+  RDKit, atom pairs, torsions, MACCS, Avalon) and similarity metrics (Tanimoto, Dice, Cosine,
+  Tversky, Russel-Rao) across four tasks - virtual screening, scaffold hopping, activity cliffs,
+  and nearest-neighbour QSAR - using public data (DUD-E EGFR, ChEMBL, Delaney ESOL). Every
+  number is computed from executed code. Each notebook runs in Google Colab with one click.
+keywords:
+  - cheminformatics
+  - molecular fingerprints
+  - similarity
+  - virtual screening
+  - scaffold hopping
+  - QSAR
+  - RDKit
+  - education
+  - tutorial
+date-released: "2026-11-24"

@@ -1,0 +1,904 @@
+{
+  "fingerprints": [
+    "ECFP4-1024",
+    "ECFP4-2048",
+    "ECFP6-2048",
+    "ECFP4-counts",
+    "FCFP4-2048",
+    "RDKit",
+    "AtomPair",
+    "Torsion",
+    "MACCS",
+    "Avalon"
+  ],
+  "benchmark1_virtual_screening": {
+    "n_queries": 25,
+    "scores": {
+      "ECFP4-1024|tanimoto": {
+        "EF1%": 6.2,
+        "EF5%": 5.864,
+        "BEDROC": 0.829,
+        "AUC": 0.863
+      },
+      "ECFP4-1024|dice": {
+        "EF1%": 6.2,
+        "EF5%": 5.864,
+        "BEDROC": 0.829,
+        "AUC": 0.863
+      },
+      "ECFP4-1024|cosine": {
+        "EF1%": 6.186,
+        "EF5%": 5.852,
+        "BEDROC": 0.832,
+        "AUC": 0.867
+      },
+      "ECFP4-1024|tversky": {
+        "EF1%": 6.302,
+        "EF5%": 5.912,
+        "BEDROC": 0.831,
+        "AUC": 0.848
+      },
+      "ECFP4-1024|russel": {
+        "EF1%": 6.317,
+        "EF5%": 5.95,
+        "BEDROC": 0.847,
+        "AUC": 0.858
+      },
+      "ECFP4-2048|tanimoto": {
+        "EF1%": 6.208,
+        "EF5%": 5.922,
+        "BEDROC": 0.849,
+        "AUC": 0.876
+      },
+      "ECFP4-2048|dice": {
+        "EF1%": 6.208,
+        "EF5%": 5.922,
+        "BEDROC": 0.849,
+        "AUC": 0.876
+      },
+      "ECFP4-2048|cosine": {
+        "EF1%": 6.208,
+        "EF5%": 5.923,
+        "BEDROC": 0.851,
+        "AUC": 0.879
+      },
+      "ECFP4-2048|tversky": {
+        "EF1%": 6.28,
+        "EF5%": 5.992,
+        "BEDROC": 0.848,
+        "AUC": 0.861
+      },
+      "ECFP4-2048|russel": {
+        "EF1%": 6.302,
+        "EF5%": 6.061,
+        "BEDROC": 0.862,
+        "AUC": 0.871
+      },
+      "ECFP6-2048|tanimoto": {
+        "EF1%": 6.222,
+        "EF5%": 5.858,
+        "BEDROC": 0.832,
+        "AUC": 0.862
+      },
+      "ECFP6-2048|dice": {
+        "EF1%": 6.222,
+        "EF5%": 5.858,
+        "BEDROC": 0.832,
+        "AUC": 0.862
+      },
+      "ECFP6-2048|cosine": {
+        "EF1%": 6.229,
+        "EF5%": 5.86,
+        "BEDROC": 0.834,
+        "AUC": 0.866
+      },
+      "ECFP6-2048|tversky": {
+        "EF1%": 6.28,
+        "EF5%": 5.903,
+        "BEDROC": 0.834,
+        "AUC": 0.851
+      },
+      "ECFP6-2048|russel": {
+        "EF1%": 6.309,
+        "EF5%": 6.012,
+        "BEDROC": 0.848,
+        "AUC": 0.861
+      },
+      "ECFP4-counts|tanimoto": {
+        "EF1%": 6.17,
+        "EF5%": 5.82,
+        "BEDROC": 0.83,
+        "AUC": 0.874
+      },
+      "ECFP4-counts|dice": {
+        "EF1%": 6.17,
+        "EF5%": 5.82,
+        "BEDROC": 0.83,
+        "AUC": 0.874
+      },
+      "FCFP4-2048|tanimoto": {
+        "EF1%": 6.164,
+        "EF5%": 5.784,
+        "BEDROC": 0.821,
+        "AUC": 0.859
+      },
+      "FCFP4-2048|dice": {
+        "EF1%": 6.164,
+        "EF5%": 5.784,
+        "BEDROC": 0.821,
+        "AUC": 0.859
+      },
+      "FCFP4-2048|cosine": {
+        "EF1%": 6.164,
+        "EF5%": 5.777,
+        "BEDROC": 0.821,
+        "AUC": 0.862
+      },
+      "FCFP4-2048|tversky": {
+        "EF1%": 6.316,
+        "EF5%": 5.953,
+        "BEDROC": 0.843,
+        "AUC": 0.861
+      },
+      "FCFP4-2048|russel": {
+        "EF1%": 6.382,
+        "EF5%": 6.026,
+        "BEDROC": 0.861,
+        "AUC": 0.873
+      },
+      "RDKit|tanimoto": {
+        "EF1%": 5.341,
+        "EF5%": 4.139,
+        "BEDROC": 0.587,
+        "AUC": 0.714
+      },
+      "RDKit|dice": {
+        "EF1%": 5.341,
+        "EF5%": 4.139,
+        "BEDROC": 0.587,
+        "AUC": 0.714
+      },
+      "RDKit|cosine": {
+        "EF1%": 5.071,
+        "EF5%": 3.942,
+        "BEDROC": 0.546,
+        "AUC": 0.708
+      },
+      "RDKit|tversky": {
+        "EF1%": 3.39,
+        "EF5%": 2.116,
+        "BEDROC": 0.316,
+        "AUC": 0.618
+      },
+      "RDKit|russel": {
+        "EF1%": 1.847,
+        "EF5%": 1.576,
+        "BEDROC": 0.246,
+        "AUC": 0.6
+      },
+      "AtomPair|tanimoto": {
+        "EF1%": 6.01,
+        "EF5%": 5.061,
+        "BEDROC": 0.68,
+        "AUC": 0.754
+      },
+      "AtomPair|dice": {
+        "EF1%": 6.01,
+        "EF5%": 5.061,
+        "BEDROC": 0.68,
+        "AUC": 0.754
+      },
+      "AtomPair|cosine": {
+        "EF1%": 6.024,
+        "EF5%": 5.148,
+        "BEDROC": 0.702,
+        "AUC": 0.782
+      },
+      "AtomPair|tversky": {
+        "EF1%": 6.192,
+        "EF5%": 5.121,
+        "BEDROC": 0.665,
+        "AUC": 0.692
+      },
+      "AtomPair|russel": {
+        "EF1%": 6.316,
+        "EF5%": 5.126,
+        "BEDROC": 0.659,
+        "AUC": 0.68
+      },
+      "Torsion|tanimoto": {
+        "EF1%": 6.185,
+        "EF5%": 5.893,
+        "BEDROC": 0.851,
+        "AUC": 0.902
+      },
+      "Torsion|dice": {
+        "EF1%": 6.185,
+        "EF5%": 5.893,
+        "BEDROC": 0.851,
+        "AUC": 0.902
+      },
+      "Torsion|cosine": {
+        "EF1%": 6.185,
+        "EF5%": 5.893,
+        "BEDROC": 0.852,
+        "AUC": 0.904
+      },
+      "Torsion|tversky": {
+        "EF1%": 6.105,
+        "EF5%": 5.781,
+        "BEDROC": 0.833,
+        "AUC": 0.884
+      },
+      "Torsion|russel": {
+        "EF1%": 6.149,
+        "EF5%": 5.811,
+        "BEDROC": 0.841,
+        "AUC": 0.89
+      },
+      "MACCS|tanimoto": {
+        "EF1%": 5.178,
+        "EF5%": 3.862,
+        "BEDROC": 0.532,
+        "AUC": 0.668
+      },
+      "MACCS|dice": {
+        "EF1%": 5.178,
+        "EF5%": 3.862,
+        "BEDROC": 0.532,
+        "AUC": 0.668
+      },
+      "MACCS|cosine": {
+        "EF1%": 5.208,
+        "EF5%": 3.89,
+        "BEDROC": 0.534,
+        "AUC": 0.679
+      },
+      "MACCS|tversky": {
+        "EF1%": 4.269,
+        "EF5%": 2.918,
+        "BEDROC": 0.414,
+        "AUC": 0.571
+      },
+      "MACCS|russel": {
+        "EF1%": 4.226,
+        "EF5%": 2.853,
+        "BEDROC": 0.409,
+        "AUC": 0.567
+      },
+      "Avalon|tanimoto": {
+        "EF1%": 5.566,
+        "EF5%": 5.11,
+        "BEDROC": 0.698,
+        "AUC": 0.792
+      },
+      "Avalon|dice": {
+        "EF1%": 5.566,
+        "EF5%": 5.11,
+        "BEDROC": 0.698,
+        "AUC": 0.792
+      },
+      "Avalon|cosine": {
+        "EF1%": 5.566,
+        "EF5%": 5.117,
+        "BEDROC": 0.709,
+        "AUC": 0.81
+      },
+      "Avalon|tversky": {
+        "EF1%": 4.926,
+        "EF5%": 4.037,
+        "BEDROC": 0.556,
+        "AUC": 0.689
+      },
+      "Avalon|russel": {
+        "EF1%": 4.35,
+        "EF5%": 3.318,
+        "BEDROC": 0.462,
+        "AUC": 0.65
+      }
+    }
+  },
+  "benchmark2_scaffold_hopping": {
+    "n_generic_scaffolds": 288,
+    "n_queries": 25,
+    "scores": {
+      "ECFP4-1024|tanimoto": {
+        "EF1%": 6.218,
+        "EF5%": 5.89,
+        "BEDROC": 0.828,
+        "AUC": 0.862
+      },
+      "ECFP4-1024|dice": {
+        "EF1%": 6.218,
+        "EF5%": 5.89,
+        "BEDROC": 0.828,
+        "AUC": 0.862
+      },
+      "ECFP4-1024|cosine": {
+        "EF1%": 6.218,
+        "EF5%": 5.88,
+        "BEDROC": 0.83,
+        "AUC": 0.866
+      },
+      "ECFP4-1024|tversky": {
+        "EF1%": 6.334,
+        "EF5%": 5.94,
+        "BEDROC": 0.83,
+        "AUC": 0.847
+      },
+      "ECFP4-1024|russel": {
+        "EF1%": 6.349,
+        "EF5%": 5.977,
+        "BEDROC": 0.846,
+        "AUC": 0.857
+      },
+      "ECFP4-2048|tanimoto": {
+        "EF1%": 6.232,
+        "EF5%": 5.95,
+        "BEDROC": 0.847,
+        "AUC": 0.875
+      },
+      "ECFP4-2048|dice": {
+        "EF1%": 6.232,
+        "EF5%": 5.95,
+        "BEDROC": 0.847,
+        "AUC": 0.875
+      },
+      "ECFP4-2048|cosine": {
+        "EF1%": 6.24,
+        "EF5%": 5.952,
+        "BEDROC": 0.85,
+        "AUC": 0.879
+      },
+      "ECFP4-2048|tversky": {
+        "EF1%": 6.313,
+        "EF5%": 6.018,
+        "BEDROC": 0.847,
+        "AUC": 0.86
+      },
+      "ECFP4-2048|russel": {
+        "EF1%": 6.32,
+        "EF5%": 6.092,
+        "BEDROC": 0.861,
+        "AUC": 0.87
+      },
+      "ECFP6-2048|tanimoto": {
+        "EF1%": 6.247,
+        "EF5%": 5.886,
+        "BEDROC": 0.83,
+        "AUC": 0.862
+      },
+      "ECFP6-2048|dice": {
+        "EF1%": 6.247,
+        "EF5%": 5.886,
+        "BEDROC": 0.83,
+        "AUC": 0.862
+      },
+      "ECFP6-2048|cosine": {
+        "EF1%": 6.261,
+        "EF5%": 5.889,
+        "BEDROC": 0.833,
+        "AUC": 0.865
+      },
+      "ECFP6-2048|tversky": {
+        "EF1%": 6.312,
+        "EF5%": 5.926,
+        "BEDROC": 0.832,
+        "AUC": 0.85
+      },
+      "ECFP6-2048|russel": {
+        "EF1%": 6.342,
+        "EF5%": 6.038,
+        "BEDROC": 0.847,
+        "AUC": 0.861
+      },
+      "ECFP4-counts|tanimoto": {
+        "EF1%": 6.196,
+        "EF5%": 5.85,
+        "BEDROC": 0.829,
+        "AUC": 0.874
+      },
+      "ECFP4-counts|dice": {
+        "EF1%": 6.196,
+        "EF5%": 5.85,
+        "BEDROC": 0.829,
+        "AUC": 0.874
+      },
+      "FCFP4-2048|tanimoto": {
+        "EF1%": 6.189,
+        "EF5%": 5.802,
+        "BEDROC": 0.819,
+        "AUC": 0.859
+      },
+      "FCFP4-2048|dice": {
+        "EF1%": 6.189,
+        "EF5%": 5.802,
+        "BEDROC": 0.819,
+        "AUC": 0.859
+      },
+      "FCFP4-2048|cosine": {
+        "EF1%": 6.182,
+        "EF5%": 5.796,
+        "BEDROC": 0.819,
+        "AUC": 0.861
+      },
+      "FCFP4-2048|tversky": {
+        "EF1%": 6.349,
+        "EF5%": 5.979,
+        "BEDROC": 0.841,
+        "AUC": 0.86
+      },
+      "FCFP4-2048|russel": {
+        "EF1%": 6.415,
+        "EF5%": 6.046,
+        "BEDROC": 0.86,
+        "AUC": 0.872
+      },
+      "RDKit|tanimoto": {
+        "EF1%": 5.351,
+        "EF5%": 4.131,
+        "BEDROC": 0.583,
+        "AUC": 0.713
+      },
+      "RDKit|dice": {
+        "EF1%": 5.351,
+        "EF5%": 4.131,
+        "BEDROC": 0.583,
+        "AUC": 0.713
+      },
+      "RDKit|cosine": {
+        "EF1%": 5.059,
+        "EF5%": 3.931,
+        "BEDROC": 0.541,
+        "AUC": 0.707
+      },
+      "RDKit|tversky": {
+        "EF1%": 3.246,
+        "EF5%": 2.086,
+        "BEDROC": 0.31,
+        "AUC": 0.616
+      },
+      "RDKit|russel": {
+        "EF1%": 1.726,
+        "EF5%": 1.548,
+        "BEDROC": 0.24,
+        "AUC": 0.598
+      },
+      "AtomPair|tanimoto": {
+        "EF1%": 6.02,
+        "EF5%": 5.054,
+        "BEDROC": 0.675,
+        "AUC": 0.753
+      },
+      "AtomPair|dice": {
+        "EF1%": 6.02,
+        "EF5%": 5.054,
+        "BEDROC": 0.675,
+        "AUC": 0.753
+      },
+      "AtomPair|cosine": {
+        "EF1%": 6.034,
+        "EF5%": 5.147,
+        "BEDROC": 0.698,
+        "AUC": 0.781
+      },
+      "AtomPair|tversky": {
+        "EF1%": 6.218,
+        "EF5%": 5.123,
+        "BEDROC": 0.661,
+        "AUC": 0.69
+      },
+      "AtomPair|russel": {
+        "EF1%": 6.348,
+        "EF5%": 5.134,
+        "BEDROC": 0.655,
+        "AUC": 0.678
+      },
+      "Torsion|tanimoto": {
+        "EF1%": 6.21,
+        "EF5%": 5.922,
+        "BEDROC": 0.85,
+        "AUC": 0.901
+      },
+      "Torsion|dice": {
+        "EF1%": 6.21,
+        "EF5%": 5.922,
+        "BEDROC": 0.85,
+        "AUC": 0.901
+      },
+      "Torsion|cosine": {
+        "EF1%": 6.203,
+        "EF5%": 5.922,
+        "BEDROC": 0.851,
+        "AUC": 0.903
+      },
+      "Torsion|tversky": {
+        "EF1%": 6.13,
+        "EF5%": 5.809,
+        "BEDROC": 0.832,
+        "AUC": 0.884
+      },
+      "Torsion|russel": {
+        "EF1%": 6.166,
+        "EF5%": 5.84,
+        "BEDROC": 0.84,
+        "AUC": 0.889
+      },
+      "MACCS|tanimoto": {
+        "EF1%": 5.112,
+        "EF5%": 3.843,
+        "BEDROC": 0.526,
+        "AUC": 0.666
+      },
+      "MACCS|dice": {
+        "EF1%": 5.112,
+        "EF5%": 3.843,
+        "BEDROC": 0.526,
+        "AUC": 0.666
+      },
+      "MACCS|cosine": {
+        "EF1%": 5.134,
+        "EF5%": 3.866,
+        "BEDROC": 0.528,
+        "AUC": 0.677
+      },
+      "MACCS|tversky": {
+        "EF1%": 4.212,
+        "EF5%": 2.894,
+        "BEDROC": 0.408,
+        "AUC": 0.57
+      },
+      "MACCS|russel": {
+        "EF1%": 4.148,
+        "EF5%": 2.83,
+        "BEDROC": 0.403,
+        "AUC": 0.565
+      },
+      "Avalon|tanimoto": {
+        "EF1%": 5.574,
+        "EF5%": 5.123,
+        "BEDROC": 0.694,
+        "AUC": 0.791
+      },
+      "Avalon|dice": {
+        "EF1%": 5.574,
+        "EF5%": 5.123,
+        "BEDROC": 0.694,
+        "AUC": 0.791
+      },
+      "Avalon|cosine": {
+        "EF1%": 5.575,
+        "EF5%": 5.128,
+        "BEDROC": 0.705,
+        "AUC": 0.809
+      },
+      "Avalon|tversky": {
+        "EF1%": 4.912,
+        "EF5%": 4.018,
+        "BEDROC": 0.551,
+        "AUC": 0.688
+      },
+      "Avalon|russel": {
+        "EF1%": 4.276,
+        "EF5%": 3.306,
+        "BEDROC": 0.456,
+        "AUC": 0.648
+      }
+    },
+    "retention": {
+      "ECFP4-1024": {
+        "same_scaffold_mean_sim": 0.476,
+        "cross_scaffold_mean_sim": 0.201,
+        "retention_ratio": 0.421
+      },
+      "ECFP4-2048": {
+        "same_scaffold_mean_sim": 0.471,
+        "cross_scaffold_mean_sim": 0.192,
+        "retention_ratio": 0.409
+      },
+      "ECFP6-2048": {
+        "same_scaffold_mean_sim": 0.412,
+        "cross_scaffold_mean_sim": 0.15,
+        "retention_ratio": 0.363
+      },
+      "ECFP4-counts": {
+        "same_scaffold_mean_sim": 0.524,
+        "cross_scaffold_mean_sim": 0.261,
+        "retention_ratio": 0.498
+      },
+      "FCFP4-2048": {
+        "same_scaffold_mean_sim": 0.524,
+        "cross_scaffold_mean_sim": 0.247,
+        "retention_ratio": 0.473
+      },
+      "RDKit": {
+        "same_scaffold_mean_sim": 0.605,
+        "cross_scaffold_mean_sim": 0.397,
+        "retention_ratio": 0.658
+      },
+      "AtomPair": {
+        "same_scaffold_mean_sim": 0.608,
+        "cross_scaffold_mean_sim": 0.347,
+        "retention_ratio": 0.57
+      },
+      "Torsion": {
+        "same_scaffold_mean_sim": 0.533,
+        "cross_scaffold_mean_sim": 0.253,
+        "retention_ratio": 0.474
+      },
+      "MACCS": {
+        "same_scaffold_mean_sim": 0.731,
+        "cross_scaffold_mean_sim": 0.496,
+        "retention_ratio": 0.679
+      },
+      "Avalon": {
+        "same_scaffold_mean_sim": 0.624,
+        "cross_scaffold_mean_sim": 0.296,
+        "retention_ratio": 0.474
+      }
+    }
+  },
+  "benchmark3_activity_cliffs": {
+    "n_sampled": 1500,
+    "sim_threshold": 0.7,
+    "cliff_delta": 2.0,
+    "metric": "tanimoto",
+    "scores": {
+      "ECFP4-1024": {
+        "n_near_neighbor_pairs": 1926,
+        "n_cliff_pairs": 54,
+        "cliff_fraction": 0.028,
+        "spearman_sim_vs_activity_closeness": 0.144
+      },
+      "ECFP4-2048": {
+        "n_near_neighbor_pairs": 1825,
+        "n_cliff_pairs": 48,
+        "cliff_fraction": 0.026,
+        "spearman_sim_vs_activity_closeness": 0.15
+      },
+      "ECFP6-2048": {
+        "n_near_neighbor_pairs": 1028,
+        "n_cliff_pairs": 24,
+        "cliff_fraction": 0.023,
+        "spearman_sim_vs_activity_closeness": 0.142
+      },
+      "ECFP4-counts": {
+        "n_near_neighbor_pairs": 2074,
+        "n_cliff_pairs": 64,
+        "cliff_fraction": 0.031,
+        "spearman_sim_vs_activity_closeness": 0.149
+      },
+      "FCFP4-2048": {
+        "n_near_neighbor_pairs": 4822,
+        "n_cliff_pairs": 171,
+        "cliff_fraction": 0.035,
+        "spearman_sim_vs_activity_closeness": 0.155
+      },
+      "RDKit": {
+        "n_near_neighbor_pairs": 28407,
+        "n_cliff_pairs": 1763,
+        "cliff_fraction": 0.062,
+        "spearman_sim_vs_activity_closeness": 0.128
+      },
+      "AtomPair": {
+        "n_near_neighbor_pairs": 3546,
+        "n_cliff_pairs": 103,
+        "cliff_fraction": 0.029,
+        "spearman_sim_vs_activity_closeness": 0.151
+      },
+      "Torsion": {
+        "n_near_neighbor_pairs": 3134,
+        "n_cliff_pairs": 137,
+        "cliff_fraction": 0.044,
+        "spearman_sim_vs_activity_closeness": 0.155
+      },
+      "MACCS": {
+        "n_near_neighbor_pairs": 80604,
+        "n_cliff_pairs": 14574,
+        "cliff_fraction": 0.181,
+        "spearman_sim_vs_activity_closeness": 0.13
+      },
+      "Avalon": {
+        "n_near_neighbor_pairs": 8301,
+        "n_cliff_pairs": 517,
+        "cliff_fraction": 0.062,
+        "spearman_sim_vs_activity_closeness": 0.124
+      }
+    }
+  },
+  "benchmark4_knn_qsar_esol": {
+    "k": 5,
+    "cv_folds": 5,
+    "endpoint": "logS",
+    "scores": {
+      "ECFP4-1024|tanimoto": {
+        "R2": 0.642,
+        "RMSE": 1.254
+      },
+      "ECFP4-1024|dice": {
+        "R2": 0.635,
+        "RMSE": 1.266
+      },
+      "ECFP4-1024|cosine": {
+        "R2": 0.62,
+        "RMSE": 1.292
+      },
+      "ECFP4-1024|tversky": {
+        "R2": 0.561,
+        "RMSE": 1.389
+      },
+      "ECFP4-1024|russel": {
+        "R2": 0.38,
+        "RMSE": 1.649
+      },
+      "ECFP4-2048|tanimoto": {
+        "R2": 0.652,
+        "RMSE": 1.237
+      },
+      "ECFP4-2048|dice": {
+        "R2": 0.645,
+        "RMSE": 1.248
+      },
+      "ECFP4-2048|cosine": {
+        "R2": 0.62,
+        "RMSE": 1.292
+      },
+      "ECFP4-2048|tversky": {
+        "R2": 0.585,
+        "RMSE": 1.35
+      },
+      "ECFP4-2048|russel": {
+        "R2": 0.417,
+        "RMSE": 1.599
+      },
+      "ECFP6-2048|tanimoto": {
+        "R2": 0.674,
+        "RMSE": 1.196
+      },
+      "ECFP6-2048|dice": {
+        "R2": 0.668,
+        "RMSE": 1.207
+      },
+      "ECFP6-2048|cosine": {
+        "R2": 0.642,
+        "RMSE": 1.254
+      },
+      "ECFP6-2048|tversky": {
+        "R2": 0.598,
+        "RMSE": 1.329
+      },
+      "ECFP6-2048|russel": {
+        "R2": 0.395,
+        "RMSE": 1.63
+      },
+      "ECFP4-counts|tanimoto": {
+        "R2": 0.772,
+        "RMSE": 1.0
+      },
+      "ECFP4-counts|dice": {
+        "R2": 0.768,
+        "RMSE": 1.008
+      },
+      "FCFP4-2048|tanimoto": {
+        "R2": 0.691,
+        "RMSE": 1.166
+      },
+      "FCFP4-2048|dice": {
+        "R2": 0.685,
+        "RMSE": 1.176
+      },
+      "FCFP4-2048|cosine": {
+        "R2": 0.668,
+        "RMSE": 1.207
+      },
+      "FCFP4-2048|tversky": {
+        "R2": 0.632,
+        "RMSE": 1.272
+      },
+      "FCFP4-2048|russel": {
+        "R2": 0.425,
+        "RMSE": 1.589
+      },
+      "RDKit|tanimoto": {
+        "R2": 0.73,
+        "RMSE": 1.09
+      },
+      "RDKit|dice": {
+        "R2": 0.725,
+        "RMSE": 1.099
+      },
+      "RDKit|cosine": {
+        "R2": 0.721,
+        "RMSE": 1.107
+      },
+      "RDKit|tversky": {
+        "R2": 0.63,
+        "RMSE": 1.275
+      },
+      "RDKit|russel": {
+        "R2": 0.084,
+        "RMSE": 2.006
+      },
+      "AtomPair|tanimoto": {
+        "R2": 0.767,
+        "RMSE": 1.011
+      },
+      "AtomPair|dice": {
+        "R2": 0.764,
+        "RMSE": 1.018
+      },
+      "AtomPair|cosine": {
+        "R2": 0.759,
+        "RMSE": 1.03
+      },
+      "AtomPair|tversky": {
+        "R2": 0.6,
+        "RMSE": 1.326
+      },
+      "AtomPair|russel": {
+        "R2": -0.172,
+        "RMSE": 2.268
+      },
+      "Torsion|tanimoto": {
+        "R2": 0.559,
+        "RMSE": 1.392
+      },
+      "Torsion|dice": {
+        "R2": 0.554,
+        "RMSE": 1.4
+      },
+      "Torsion|cosine": {
+        "R2": 0.539,
+        "RMSE": 1.423
+      },
+      "Torsion|tversky": {
+        "R2": 0.427,
+        "RMSE": 1.586
+      },
+      "Torsion|russel": {
+        "R2": 0.174,
+        "RMSE": 1.905
+      },
+      "MACCS|tanimoto": {
+        "R2": 0.674,
+        "RMSE": 1.197
+      },
+      "MACCS|dice": {
+        "R2": 0.669,
+        "RMSE": 1.205
+      },
+      "MACCS|cosine": {
+        "R2": 0.652,
+        "RMSE": 1.236
+      },
+      "MACCS|tversky": {
+        "R2": 0.548,
+        "RMSE": 1.408
+      },
+      "MACCS|russel": {
+        "R2": 0.225,
+        "RMSE": 1.844
+      },
+      "Avalon|tanimoto": {
+        "R2": 0.709,
+        "RMSE": 1.13
+      },
+      "Avalon|dice": {
+        "R2": 0.704,
+        "RMSE": 1.14
+      },
+      "Avalon|cosine": {
+        "R2": 0.702,
+        "RMSE": 1.144
+      },
+      "Avalon|tversky": {
+        "R2": 0.636,
+        "RMSE": 1.264
+      },
+      "Avalon|russel": {
+        "R2": 0.26,
+        "RMSE": 1.803
+      }
+    }
+  }
+}
